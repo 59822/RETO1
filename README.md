@@ -65,6 +65,7 @@ Escribir una función que reciba una lista de números y devuelva solo aquellos 
 
 En este reto, el usuario proporciona una lista de números que luego se procesa para identificar los números primos. Se utiliza un bucle `while` para recopilar los números y una función `repo3` para determinar si un número es primo. Dentro de `repo3`, se itera sobre cada número de la lista y se verifica si es divisible por algún número menor que él mismo. Si un número no es divisible por ningún número menor que él mismo (excepto 1), se considera primo y se agrega a una lista de números primos. Finalmente, se muestra la lista de números primos en la terminal.
 
+```python 
 ln = int(input("Escribir el tamaño de la lista: ")) #Se elige el tamaño de la lista.
 numbers = [] #La lista donde se van a anexar los valores que el usuario desee posteriormente.
 a : int = 0  #El valor con el que va a comparar el loop while para su funcionamiento.
